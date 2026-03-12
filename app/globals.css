@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  /* Success Tutoring brand tokens (instructions.md) */
+  --coral: #e8734a;
+  --coral-light: #fad7c8;
+  --teal: #5bbfbf;
+  --teal-light: #c8ecec;
+  --cream: #f9f5f0;
+  --dark: #2d2d2d;
+
+  --background: var(--cream);
+  --foreground: var(--dark);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
